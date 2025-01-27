@@ -9,7 +9,9 @@
 nav {
   padding-top: 8px;
   padding-bottom: 8px;
-  background-color: rgb(49, 49, 49);
+  border-color: white;
+  border-style: inset;
+  border-radius: 20px;
   margin: 25px;
 }
 
@@ -30,9 +32,11 @@ header nav a:active {
 }
 
 footer {
-  margin: 10px;
+  margin-top: 40px;
   padding: 10px;
-  background-color: rgb(66, 66, 66);
+  border-color: white;
+  border-style: inset;
+  border-radius: 20px;
 }
 footer a {
   margin: 15px;
@@ -72,6 +76,23 @@ div h1 {
 div .pagelogo {
   width: 180px;
   max-width: 100%;
+}
+
+h2 {
+  font-size: 2rem;
+  padding: 10px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
