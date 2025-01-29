@@ -3,7 +3,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 80px;
+  gap: 50px;
 }
 
 nav {
@@ -59,13 +59,13 @@ body {
   text-align: center;
 }
 
-div {
+.maintitle {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
 }
-div h1 {
+.maintitle h1 {
   margin-top: 30px;
   text-align: center;
   font-size: 7rem;
@@ -73,14 +73,35 @@ div h1 {
   letter-spacing: 4px;
   max-width: 100%;
 }
-div .pagelogo {
+.maintitle .pagelogo {
   width: 180px;
   max-width: 100%;
 }
 
-h2 {
-  font-size: 2rem;
+.mainflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.mainflex h3 {
   padding: 10px;
+}
+
+.guideflex {
+  padding: 20px;
+  border-color: white;
+  border-style: inset;
+  border-radius: 20px;
+  width: 350px;
+  height: 270px;
+}
+
+h2 {
+  font-size: 1.7rem;
+  padding: 10px;
+  margin: 10px;
 }
 
 p {

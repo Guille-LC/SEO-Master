@@ -14,7 +14,7 @@ body {
 	text-align: center;
 }
 
-div {
+.maintitle {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -33,9 +33,30 @@ div {
     }
 }
 
+.mainflex {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 50px;
+	h3 {
+		padding: 10px;
+	}
+}
+
+.guideflex {
+	padding: 20px;
+    border-color: white;
+    border-style: inset;
+    border-radius: 20px;
+	width: 350px;
+	height: 270px;
+}
+
 h2 {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	padding: 10px;
+	margin: 10px;
 }
 
 p {
