@@ -132,4 +132,12 @@ p {
   width: 100px;
 }
 
+#botontres {
+  background-color: rgb(0, 138, 7);
+  color: rgb(232, 255, 132);
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  width: 100px;
+}
+
 /*# sourceMappingURL=styles.css.map */
