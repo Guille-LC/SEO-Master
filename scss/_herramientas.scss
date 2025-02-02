@@ -1,0 +1,27 @@
+.contador {
+    display: flex;
+    justify-content: center;
+	align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: aqua;
+    height: 300px;
+    width: 100%;
+    font-size: 2.5rem;
+    color: black;
+    button {
+        font-size: 2rem;
+    }
+}
+
+#aumentar:hover {
+    background-color: blue;
+}
+
+#disminuir:hover {
+    background-color: red;
+}
+
+#reset:hover {
+    background-color: greenyellow;
+}

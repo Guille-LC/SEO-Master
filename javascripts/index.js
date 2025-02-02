@@ -10,3 +10,4 @@ botonDos.onclick = () => alert("Click dos escuchado!")
 const escucharClick = () => alert("Click tres escuchado!");
 let botonTres = document.getElementById("botontres");
 botonTres.addEventListener("click", escucharClick);
+
