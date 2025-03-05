@@ -16,6 +16,11 @@ form.addEventListener("submit", function(e) {
     let userInformation = userRegistred(userName,userEmail,textMessage);
     console.log(userInformation);
     saveSessionStorage("UserInfo", userInformation);
+    Swal.fire({
+        title: "¡Formulario enviado!",
+        icon: "success",
+        draggable: true
+    });
     this.reset();
 });
 
